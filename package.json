@@ -1,5 +1,5 @@
 {
-    "name": "ws-server-demo",
+    "name": "ws-demo-server",
     "version": "0.1.0",
     "main": "dist/index.js",
     "repository": "https://github.com/nickhrsims/ws-server-demo",
