@@ -12,7 +12,8 @@ api.ws('/', (socket) => {
         console.log('Connection Established');
     });
     socket.on('message', (data) => {
-        console.log(data);
+        console.log(`Received: ${data}`);
+        socket.send(`${data}`);
     });
     socket.on('close', (code, reason) => {
         console.log(`WebSocket Session closed with ${code} (${reason})`);
